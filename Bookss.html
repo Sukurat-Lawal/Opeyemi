@@ -52,8 +52,7 @@
                 let displayArea = document.getElementById("bookDisplay");
                 displayArea.innerHtml = "";
          
-
-            libray.forEach((book, index) => {
+            library.forEach((book, index) => {
                 let bookCard = document.createElement("div");
                 bookCard.classList.add("bookCard");
                 bookCard.innerHtml = `
@@ -96,14 +95,14 @@
                     displayBooks();
                 }
 
-                let libary = [];
+                let library = [];
 
                 library.push(new Book("Things fall apart", "Chinua Achebe", 224, true));
-                library.push(new Book("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 223, flase));
+                library.push(new Book("Harry Potter and the Philosopher's Stone", "J.K. Rowling", 223, false));
                 library.push(new Book("Split Milk", "Kopano Matlwa", 195, true));
 
 
                 displayBooks();
         </script>
-    </body>
-</html>
+    </body
+</html> 
